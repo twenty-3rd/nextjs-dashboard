@@ -1,5 +1,8 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
  
+// 添加这个使得dashboard页面可用使用ppr
+export const experimental_ppr = true;
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
